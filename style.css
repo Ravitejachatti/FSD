@@ -1,0 +1,149 @@
+body{
+    text-align: center;
+}
+img{
+    border-radius: 5px;
+    width: 200px;
+    height: 140px;
+}
+h1{
+    font-family: 'Delicious Handrawn',cursive;
+    
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.top_heading{
+    background-color: rgb(160, 222, 247);
+   
+}
+.place_main{
+    width: 600px;
+    margin: 20px auto 30px auto;
+}
+.place_sub{
+    margin: 20px auto 30px auto;
+    
+}
+.place_sub:hover{
+    background-color:rgb(221, 234, 182); ;
+}
+.desc{
+    margin: 100px auto 20px auto;
+}
+.araku_desc{
+    text-align: left;
+    margin-left: 220px;
+}
+.beach_desc{
+    text-align: right;
+    margin-right: 220px;
+    padding-top: auto
+}
+.zoo_desc{
+    text-align: left;
+    margin-left: 220px;
+}
+
+.food_main{
+    width: 650px;
+   
+    margin: 50px auto 30px auto;
+   
+    
+
+}
+.food_middle{
+    display: flex;
+    gap: 10px;
+
+    
+    flex-wrap: nowrap;
+    
+
+}
+
+.food_desc:hover{
+    background-color: rgb(221, 234, 182);;
+    
+}
+.friend_head{
+   
+}
+
+table{
+   
+
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td,th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+  
+tr:hover {background-color: rgb(221, 234, 182);}
+  
+thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    
+    background-color: rgb(160, 222, 247);
+    color: black;
+  }
+  .icons{
+    width: 30px;
+    height: 30px;
+  }
+
+  .foot{
+    margin: 30px auto 0px auto;
+    background-color:rgb(160, 222, 247) ;
+  }
+
+  .links{
+    
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap: 20px;
+   
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0px auto;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    background-color: rgb(160, 222, 247) ;
+  }
+a{
+    text-decoration: none;
+}
+
+
+
+
+.araku{
+    width: 200px;
+    float: left;
+    
+}
+.beach{
+    width: 200px;
+    float: right;
+}
+.zoo{
+    width: 200px;
+    height: 140px;
+    float: left;
+}
+    
